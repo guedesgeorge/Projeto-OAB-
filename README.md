@@ -70,11 +70,19 @@ Plaintext
 
 .
 ├── AGENT/                # Lógica do agente inteligente (LangChain)
+
 ├── SCRAPER/              # Motor de busca e automação (Selenium)
+
 ├── .ENV                  # Variáveis sensíveis (não versionado)
+
 ├── DOCKER-COMPOSE.YML    # Orquestração de microsserviços
+
 ├── DOCKERFILE            # Imagem Docker da aplicação
+
 ├── MAIN.PY               # Ponto de entrada da API FastAPI
+
 ├── REQUIREMENTS.TXT      # Dependências do ecossistema Python
+
 └── README.MD             # Documentação técnica
+
 Desenvolvido por George Emannuel Guedes de Carvalho
