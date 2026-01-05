@@ -1,4 +1,5 @@
 🤖 AGENTE DE CONSULTA OAB COM LLM
+
 🎯 OBJETIVO
 
 Este projeto é uma solução completa para consultar dados de advogados no Cadastro Nacional dos Advogados (CNA) da OAB e interagir com esses dados por meio de um agente de Inteligência Artificial. A aplicação combina técnicas de Web Scraping, uma API REST e um agente LLM (Large Language Model) para responder perguntas em linguagem natural.
