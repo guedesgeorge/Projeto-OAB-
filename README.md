@@ -1,10 +1,10 @@
-🤖 AGENTE DE CONSULTA OAB COM LLM
+# 🤖 AGENTE DE CONSULTA OAB COM LLM
 
-🎯 OBJETIVO
+# 🎯 OBJETIVO
 
 Este projeto é uma solução completa para consultar dados de advogados no Cadastro Nacional dos Advogados (CNA) da OAB e interagir com esses dados por meio de um agente de Inteligência Artificial. A aplicação combina técnicas de Web Scraping, uma API REST e um agente LLM (Large Language Model) para responder perguntas em linguagem natural.
 
-✨ FUNCIONALIDADES
+# ✨ FUNCIONALIDADES
 
 WEB SCRAPER COM SELENIUM: Um scraper robusto que navega pelo site da OAB, preenche o formulário de busca e extrai os dados dos resultados de forma automatizada.
 
@@ -14,7 +14,7 @@ AGENTE INTELIGENTE COM LANGCHAIN: Agente que utiliza modelos da Cloudflare para 
 
 CONTAINERIZAÇÃO COM DOCKER: Implementação baseada em microsserviços totalmente containerizados, garantindo paridade entre ambientes de desenvolvimento e produção.
 
-🛠️ TECNOLOGIAS UTILIZADAS
+# 🛠️ TECNOLOGIAS UTILIZADAS
 
 BACKEND: Python 3.11, FastAPI, Uvicorn
 
@@ -26,7 +26,7 @@ INFRAESTRUTURA: Docker, Docker Compose
 
 OUTROS: Python-dotenv, Requests, Pydantic
 
-🚀 INSTALAÇÃO E EXECUÇÃO
+# 🚀 INSTALAÇÃO E EXECUÇÃO
 
 Para rodar este projeto, é necessário possuir o Docker e o Docker Compose instalados.
 
@@ -47,7 +47,8 @@ SUBIDA DOS CONTÊINERES
 Bash
 
 docker-compose up --build
-⚙️ COMO USAR
+
+# ⚙️ COMO USAR
 
 AGENTE LLM: O processo é automático. Ao iniciar o contêiner llm-agent, ele processa as perguntas definidas em agent/agent.py. O log exibirá o raciocínio da "chain" até a resposta final.
 
@@ -60,7 +61,7 @@ curl -X POST "http://localhost:8000/fetch_oab" \
 -d '{"name": "Lucas Augusto Capilé Pinotti", "uf": "MS"}'
 🎬 DEMONSTRAÇÃO [Link para o Vídeo no Drive]
 
-📁 ESTRUTURA DO PROJETO
+# 📁 ESTRUTURA DO PROJETO
 
 Plaintext
 
