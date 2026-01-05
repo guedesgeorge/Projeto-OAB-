@@ -29,12 +29,7 @@ OUTROS: Python-dotenv, Requests, Pydantic
 
 Para rodar este projeto, é necessário possuir o Docker e o Docker Compose instalados.
 
-CLONE O REPOSITÓRIO
 
-Bash
-
-git clone https://github.com/bax7os/alfaneo-test
-cd teste-alfenio-legal-ai
 CONFIGURE AS VARIÁVEIS DE AMBIENTE Crie um arquivo .env na raiz do projeto:
 
 Bash
