@@ -1,0 +1,13 @@
+# Core
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# Scraping
+selenium
+beautifulsoup4
+
+# Agente LLM
+langchain
+langchain-cloudflare
+requests

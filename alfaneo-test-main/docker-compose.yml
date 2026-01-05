@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  scraper-api:
+    build: .
+    container_name: oab_scraper_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./scraper:/app/scraper
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  agent:
+    build: .
+    container_name: oab_llm_agent
+    depends_on:
+      - scraper-api
+    volumes:
+      - ./agent:/app/agent
+      - ./.env:/app/.env 
+    command: python agent/agent.py
